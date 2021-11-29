@@ -1,0 +1,618 @@
+.rCard {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(18rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 320px) {
+  .rCard {
+    margin-left: 15px;
+  }
+  .rCard .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .rCard {
+    margin-left: 35px;
+  }
+  .rCard .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .rCard {
+    margin-left: 40px;
+  }
+  .rCard .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .rCard {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .rCard {
+    margin-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center;
+  }
+  .rCard .card {
+    margin: 15px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .rCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.rCard .card {
+  width: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  .navbar-nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .navbar-nav .nav-link {
+    margin-left: 15px;
+    margin-top: 7px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (min-width: 320px) {
+  .navbar-nav .nav-link {
+    border-bottom: solid grey;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .navbar-nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .navbar-nav .nav-link {
+    margin-left: 23px;
+    margin-top: 7px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (min-width: 320px) {
+  .navbar-nav .nav-link {
+    border-bottom: solid grey;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .navbar-nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .navbar-nav .nav-link {
+    margin-left: 25px;
+    margin-top: 7px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (min-width: 320px) {
+  .navbar-nav .nav-link {
+    border-bottom: solid grey;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .navbar-nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .navbar-nav .nav-link {
+    margin-left: 35px;
+    margin-top: 7px;
+  }
+}
+
+@media only screen and (min-width: 414px) and (min-width: 320px) {
+  .navbar-nav .nav-link {
+    border-bottom: solid grey;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .navbar-nav .nav-link {
+    margin-left: 25px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-width: 320px) {
+  .navbar-nav .nav-link {
+    border-bottom: solid grey;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar-nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .navbar-nav .nav-link {
+    border: none;
+  }
+}
+
+.sCards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(18rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 320px) {
+  .sCards {
+    margin-left: 15px;
+  }
+  .sCards .cardigan {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  }
+  .sCards .cardigan img {
+    height: 190px;
+  }
+  .sCards .card-body {
+    height: 135px;
+  }
+  .sCards .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .sCards {
+    margin-left: 35px;
+  }
+  .sCards .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .sCards {
+    margin-left: 40px;
+  }
+  .sCards .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .sCards {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sCards {
+    margin-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center;
+  }
+  .sCards .card {
+    margin: 15px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .sCards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .sCards .cardigan {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  }
+  .sCards .cardigan img {
+    height: 230px;
+  }
+  .sCards .card-body {
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sCards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .sCards .cardigan {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  }
+  .sCards .cardigan img {
+    height: 230px;
+  }
+  .sCards .card-body {
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+.sCards .cardigan {
+  width: 100%;
+}
+
+.generos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(18rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+@media only screen and (min-width: 320px) {
+  .generos {
+    width: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .generos .imagenesGenero {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .generos {
+    width: 100vw;
+    margin-left: 0px;
+  }
+  .generos .imagenesGenero {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .generos .imagenesGenero {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .generos .imagenesGenero {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .generos .imagenesGenero {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .generos .imagenesGenero {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .footer {
+    margin-top: 0px;
+    height: 165px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .footer {
+    margin-top: 0px;
+    height: 165px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .footer {
+    margin-top: 0px;
+    height: 180px;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .footer {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer {
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .linkFooter {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .linkFooter {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .linkFooter {
+    margin-top: 0px;
+  }
+}
+
+.ropaCard {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(18rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 320px) {
+  .ropaCard {
+    margin-left: 15px;
+  }
+  .ropaCard .cardigan {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  }
+  .ropaCard .cardigan img {
+    height: 190px;
+  }
+  .ropaCard .card-body {
+    height: 135px;
+  }
+  .ropaCard .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .ropaCard {
+    margin-left: 35px;
+  }
+  .ropaCard .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .ropaCard {
+    margin-left: 40px;
+  }
+  .ropaCard .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .ropaCard {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ropaCard {
+    margin-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center;
+  }
+  .ropaCard .card {
+    margin: 15px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ropaCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .ropaCard .cardigan {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  }
+  .ropaCard .cardigan img {
+    height: 230px;
+  }
+  .ropaCard .card-body {
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ropaCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .ropaCard .cardigan {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  }
+  .ropaCard .cardigan img {
+    height: 230px;
+  }
+  .ropaCard .card-body {
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+.ropaCard .cardigan {
+  width: 100%;
+}
+
+@media only screen and (min-width: 360px) {
+  .bannerSanta {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .bannerSanta {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .bannerSanta {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bannerSanta {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bannerSanta {
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .bannerVS {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .bannerVS {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .bannerVS {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bannerVS {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bannerVS {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */

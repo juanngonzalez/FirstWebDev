@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="js" href="./carrito.js">
+    <title>RollSkateShop.com</title>
+</head>
+
+<body>
+
+    <!-- banner portada -->
+
+    <header class="banner">
+        <h1 class="titulo">Roll Skate Shop</h1>
+    </header>
+
+    <!-- barra navegacion -->
+
+    <div class="rNav" >
+        <nav class="navbar navbar-expand-lg navbar-light bg-grey navegador">
+            <div  class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navegante" class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./skate.html">Skates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./clothes.html">Clothes</a>
+                            <ul>
+                                <li><a class="ramasRopa" class="nav-link active" href="./hombre.html">Hombre</a></li>
+                                
+                                <li><a class="ramasRopa" class="nav-link active ramasRopa" href="./mujer.html">Mujer</a>
+                                </li>
+                        
+                                <li><a class="ramasRopa" class="nav-link active ramasRopa" href="./nenes.html">Niños</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- cartas con fotos e info -->
+    <h2 class="container tituloShop">Skates y Tablas</h2>
+    <div class="sCards" class="d-flex justify-content-evenly cartas">
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/skate 1.jpg" class="card-img-top border-bottom border-1" alt="tabla de skate element">
+            <div class="card-body">
+                <p class="card-text">Skate Element.</p>
+                <p class="card-text">$4000</p>
+                <button type="button" class="btn btn-dark btn-sm botonM" onclick="cargarProductos()">Comprar</button>
+            </div>
+        </div>
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/skate 2.jpg" class="card-img-top border-bottom border-1" alt="tabla de skate element">
+            <div class="card-body">
+                <p class="card-text">Skate Element.</p>
+                <p class="card-text">$4000</p>
+                <button type="button"  class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/skate 3.jpg" class="card-img-top border-bottom border-1" alt="tabla de skate oxelo">
+            <div class="card-body">
+                <p class="card-text">Skate Oxelo.</p>
+                <p class="card-text">$3000</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sCards" class="d-flex justify-content-evenly cartas">
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/tabla 1.jpg" class="card-img-top border-bottom border-1" alt="tabla de skate mistery">
+            <div class="card-body">
+                <p class="card-text">Tabla Mistery.</p>
+                <p class="card-text">$2000</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/tabla 2.jpg" class="card-img-top border-bottom border-1" alt="tabla de skate element">
+            <div class="card-body">
+                <p class="card-text">Tabla Element.</p>
+                <p class="card-text">$3000</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/tabla 3.jpg" class="card-img-top border-bottom border-1" alt="tabla de skate element">
+            <div class="card-body">
+                <p class="card-text">Tabla Element.</p>
+                <p class="card-text">$3000</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <img class="bannerSanta" src="assets/banner santa cruz.jpg" alt="bannersantacruz">
+    </div>
+
+    <h2 class="container tituloShop">Ejes y Ruedas</h2>
+    <div class="sCards" class="d-flex justify-content-evenly cartas">
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="/assets/eje 1.jpg" class="card-img-top border-bottom border-1" alt="eje volcom">
+            <div class="card-body">
+                <p class="card-text">Eje Volcom</p>
+                <p class="card-text">$1500</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/eje 2.jpg" class="card-img-top border-bottom border-1" alt="eje element">
+            <div class="card-body">
+                <p class="card-text">Eje Element.</p>
+                <p class="card-text">$1500</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/eje 3.jpg" class="card-img-top border-bottom border-1" alt="eje santacruz">
+            <div class="card-body">
+                <p class="card-text">Eje SantaCruz</p>
+                <p class="card-text">$1000</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sCards" class="d-flex justify-content-evenly cartas">
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/ruedas 1.jpg" class="card-img-top border-bottom border-1" alt="ruedes spitfire">
+            <div class="card-body">
+                <p class="card-text">Ruedas SpitFire.</p>
+                <p class="card-text">$850</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/ruedas 2.jpg" class="card-img-top border-bottom border-1" alt="ruedas spitfire">
+            <div class="card-body">
+                <p class="card-text">Ruedas SpitFire.</p>
+                <p class="card-text">$850</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+        <div class="cardigan shadowcard border border-dark card" style="width: 13rem;">
+            <img src="./assets/ruedas 3.jpg" class="card-img-top border-bottom border-1" alt="ruedas haze">
+            <div class="card-body">
+                <p class="card-text">Ruedas Haze.</p>
+                <p class="card-text">$700</p>
+                <button type="button" class="btn btn-dark btn-sm botonM">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <img class="bannerSanta" src="assets/banner thrasher.jpg" alt="bannersantacruz">
+    </div>
+
+    <div class="d-flex justify-content-center giftCard">
+        <a href="./contact.html"><img src="./assets/Gift-Cards-1.jpg" class="gift img-fluid" alt="foto con link gift card"></a>
+    </div>
+
+    <div class="explicacion accordion border border-1" id="accordionExample">
+        <div class="accordion-item bg-dark bg-opacity-10">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button p-3 mb-2 bg-dark text-white collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    Puedes enviar un GiftCard o comprar uno.
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Los GiftCard pueden ser usados por otro.</strong> Puedes enviar como regalo un GiftCard a un
+                    tercero, pero debes indicar nombre y documento de dicha persona para poder entregarsela sin
+                    inconvenientes. Tambien puedes comprar una para vos y usarla cuando quieras!.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark bg-opacity-10">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button p-3 mb-2 bg-dark text-white collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    Los Gift Cards no vencen!.
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Regala lo que quieras sin limite!.</strong> Cuando compras un GiftCard puede ser usado en
+                    cualquier
+                    momento sin fecha de expiracion, tenes que tener en cuenta que el GiftCard siempre vale lo mismo,
+                    quizas los productos no.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <div class="container-fluid footer">
+        <span class="dirr">Copyright © 1999-2021 Roll Skate Shop S.R.L</span>
+        <br>
+        <span class="dirr">Av. Siempre Viva 3039, Piso 2, CP 1264, Parque Patricios, CABA</span>
+        <br>
+        <br>
+        <span><a class="linkFooter" href="./index.html">Home</a></span>
+        <span><a class="linkFooter" href="./skate.html">Skate</a></span>
+        <span><a class="linkFooter" href="./clothes.html">Clothes</a></span>
+        <span><a class="linkFooter" href="./contact.html">Contact</a></span>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- programacion script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

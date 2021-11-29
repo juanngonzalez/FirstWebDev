@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.952);
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    border-radius: 0%;
+}
+
+.titulo {
+    font-family: 'Lobster', cursive;
+    color: black;
+    text-align: center;
+    font-weight: 450px;
+    font-size: 75px;
+}
+
+.banner {
+    background-image: url(https://i.ytimg.com/vi/QTSmqHRuv7o/maxresdefault.jpg);
+    width: 100vw;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 5px 10px 0px rgba(22, 22, 22, 0.623);
+}
+
+h2 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.nosotros {
+    margin-top: 40px;
+    border: 15px grey;
+}
+
+.eventos {
+    margin-top: 50px;
+}
+
+h5 {
+    color: black;
+}
+
+.premios {
+    margin: 2%;
+
+
+
+}
+
+h6 {
+    font-size: 35px;
+    margin-top: 35px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.competencia {
+    margin-top: 25px;
+    padding: 0px;
+
+
+
+}
+
+.navegador {
+    margin-right: 10px;
+}
+
+.cartas {
+    margin-top: 15px;
+
+}
+
+.footer {
+    background-color: rgba(238, 227, 227, 0.966);
+    height: 100px;
+    font-size: 15px;
+    margin-top: 50px;
+    height: 100px;
+
+}
+
+.linkFooter {
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(53, 53, 53, 0.616);
+    font-size: 15px;
+    background-color: rgba(238, 227, 227, 0.966);
+}
+.linkFooter:hover{
+    color: red;
+}
+
+.dirr {
+    color: rgba(99, 99, 99, 0.842);
+}
+
+.bordeTabla {
+    border-style: solid;
+    border-color: rgba(65, 64, 64, 0.74);
+    border-width: 1px;
+}
+.carrusel{
+    margin-bottom: 15px;
+}
+
+.nav-item a{
+    position: relative;
+}
+li{
+    display:inline;
+}
+ul ul{
+    padding: 1px;
+    margin-left: 25px;
+    display: none;
+    position: absolute;
+    background-color: rgba(66, 66, 66, 0.753);
+    z-index: 999;
+}
+ul ul li{
+    display:block;
+    
+}
+ul li:hover ul{
+    display: block;
+}
+.ramasRopa{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ramasRopa:hover{
+    color: red;
+}
+.shadowcardDos{
+    box-shadow: 0px 5px 10px 5px rgba(58, 57, 57, 0.397);
+}
+.shadowcard{
+    box-shadow: 0px 5px 10px 5px rgba(58, 57, 57, 0.397);
+}
+.bannerSanta{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.cartas{
+    padding: 10px;
+}
+.tituloShop{
+    margin-top: 0px;
+}
+.giftCard{
+    padding: 25px;
+}
+.explicacion{
+    padding: 20px;
+    margin-right: 20px;
+}
+.cuotas{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.cuotasLink{
+    text-transform: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.cuotasLink:hover{
+    color: red;
+}
+.generos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cuotasDos{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color:black;
+
+}
+.tituloForm{
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    margin-top:0px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+
+}
+.claseContacto{
+    background-image:url(/assets/Titanium2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.contenedor{
+    background-color: rgba(124, 124, 124, 0.144);
+    width: 350px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    color: black;
+    box-shadow: 7px 13px 37px black;
+    margin-bottom: 170px;
+}
+.control{
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.753);
+    padding: 10px;
+    border-radius:4px;
+    margin-bottom: 20px;
+    border:1px solid black;
+    font-size: 18px;
+}
+.boton{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius:4px;
+    color: rgb(41, 38, 38);
+    text-transform: uppercase;
+    background: linear-gradient(to left top, rgba(255, 255, 255, 0), rgba(255, 254, 254, 0.644) );
+    font-size: 20px;
+    font-weight:500;
+}
+
+.boton:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355,1) .5s;
+}
+.boton:active{
+    transform: translateY(3px);
+}
+
+.mensaje:focus{
+    height: 100px;
+}
+.nav-link{
+    font-size: 17px;
+}
+.bannerVans{
+    margin-bottom: 15px;
+}
+.nuevocarrito{
+    width: 14rem;
+}

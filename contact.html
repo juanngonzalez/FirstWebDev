@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>RollSkateShop.com</title>
+</head>
+<!-- barra navegacion -->
+
+<div class="rNav" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-grey navegador">
+        <div  class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navegante" class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./skate.html">Skates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./clothes.html">Clothes</a>
+                        <ul>
+                            <li><a class="ramasRopa" class="nav-link active" href="./hombre.html">Hombre</a></li>
+                            
+                            <li><a class="ramasRopa" class="nav-link active ramasRopa" href="./mujer.html">Mujer</a>
+                            </li>
+                    
+                            <li><a class="ramasRopa" class="nav-link active ramasRopa" href="./nenes.html">Niños</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<body class="claseContacto" >
+    <div class="contenedor wow animate__bounceIn">
+        <h2 class="tituloForm">formulario de contacto</h2>
+        <input type="text" class="control" placeholder="ingrese su nombre">
+        <input type="text" class="control" placeholder="ingrese su apellido">
+        <input type="email" class="control" placeholder="ingrese su email" required>
+        <input type="text" class="control mensaje" placeholder="ingrese su mensaje" required>
+        <button class="boton">Enviar</button>
+    </div>
+
+    <!-- footer
+    <div class="container-fluid footer">
+        <span class="dirr">Copyright © 1999-2021 Roll Skate Shop S.R.L</span>
+        <br>
+        <span class="dirr">Av. Siempre Viva 3039, Piso 2, CP 1264, Parque Patricios, CABA</span>
+        <br>
+        <br>
+        <span><a class="linkFooter" href="./index.html">Home</a></span>
+        <span><a class="linkFooter" href="./skate.html">Skate</a></span>
+        <span><a class="linkFooter" href="./clothes.html">Clothes</a></span>
+        <span><a class="linkFooter" href="./contact.html">Contact</a></span>
+
+    </div> -->
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>

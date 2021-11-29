@@ -1,0 +1,490 @@
+.rCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    margin-left: auto;
+
+    @media only screen and(min-width: 320px) {
+        margin-left: 15px;
+
+        .card {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 360px) {
+        margin-left: 35px;
+
+        .card {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 375px) {
+        margin-left: 40px;
+
+        .card {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 414px) {
+        margin-left: 60px;
+    }
+
+    @media only screen and(min-width: 768px) {
+        margin-left: 0px;
+        display: flex;
+        justify-self: center;
+
+        .card {
+            margin: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 1024px) {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+.navbar-nav {
+    @media only screen and(min-width:320px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .nav-link {
+            margin-left: 15px;
+            margin-top: 7px;
+
+            @media only screen and(min-width:320px) {
+                border-bottom: solid grey;
+            }
+        }
+    }
+
+    @media only screen and(min-width:360px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .nav-link {
+            margin-left: 23px;
+            margin-top: 7px;
+
+            @media only screen and(min-width:320px) {
+                border-bottom: solid grey;
+            }
+        }
+    }
+
+    @media only screen and(min-width:375px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .nav-link {
+            margin-left: 25px;
+            margin-top: 7px;
+
+            @media only screen and(min-width:320px) {
+                border-bottom: solid grey;
+            }
+        }
+    }
+
+    @media only screen and(min-width:414px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .nav-link {
+            margin-left: 35px;
+            margin-top: 7px;
+
+            @media only screen and(min-width:320px) {
+                border-bottom: solid grey;
+            }
+        }
+    }
+
+    @media only screen and(min-width:768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .nav-link {
+            margin-left: 25px;
+            margin-top: 0px;
+
+            @media only screen and(min-width:320px) {
+                border-bottom: solid grey;
+            }
+        }
+    }
+
+
+    @media only screen and(min-width: 1024px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .nav-link {
+            border: none;
+        }
+
+    }
+}
+
+.sCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    margin-left: auto;
+
+    @media only screen and(min-width: 320px) {
+        margin-left: 15px;
+        
+            
+        .cardigan {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 40px;
+                img{
+                    height: 190px;
+                }
+            }
+            .card-body{
+                height: 135px;
+            }
+            .btn{
+                display: flex;
+                align-items:center;
+                float: right;
+                
+            }
+    }
+
+    @media only screen and(min-width: 360px) {
+        margin-left: 35px;
+
+        .card {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 375px) {
+        margin-left: 40px;
+
+        .card {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 414px) {
+        margin-left: 60px;
+    }
+
+    @media only screen and(min-width: 768px) {
+        margin-left: 0px;
+        display: flex;
+        justify-self: center;
+
+        .card {
+            margin: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 1024px) {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        .cardigan {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 40px;
+                img{
+                    height: 230px;
+                }
+            }
+            .card-body{
+                height: auto;
+                overflow: hidden;
+                
+            }
+        
+    }
+    @media only screen and(min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        .cardigan {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 40px;
+                img{
+                    height: 230px;
+                }
+            }
+            .card-body{
+                height: auto;
+                overflow: hidden;
+                
+            }
+        
+    }
+
+    .cardigan {
+        width: 100%;
+    }
+}
+.generos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    @media only screen and(min-width: 320px) {
+        width: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        .imagenesGenero{
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+    }
+    @media only screen and(min-width: 360px) {
+        width: 100vw;
+        margin-left: 0px;
+        .imagenesGenero{
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+    }
+    @media only screen and(min-width: 375px) {
+       
+        .imagenesGenero{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+
+        }
+
+    }
+    @media only screen and(min-width: 414px) {
+       
+        .imagenesGenero{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 25px;
+
+        }
+
+    }
+    @media only screen and(min-width: 768px) {
+       
+        .imagenesGenero{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+        }
+
+    }
+    @media only screen and(min-width: 1024px) {
+        
+        .imagenesGenero{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            
+
+        }
+
+    }
+    
+
+}
+.footer{
+    @media only screen and(min-width: 320px){
+        margin-top:0px;
+        height: 165px;
+    }
+    @media only screen and(min-width: 360px){
+        margin-top:0px;
+        height: 165px;
+    }
+    @media only screen and(min-width: 375px){
+        margin-top:0px;
+        height: 180px;
+    }
+    @media only screen and(min-width: 414px){
+        
+        height: 300px;
+    }
+    @media only screen and(min-width: 1024px){
+        height: 100px;
+    }
+    
+}
+.linkFooter{
+    @media only screen and(min-width: 320px){
+        display: inline;
+
+    }
+    @media only screen and(min-width: 360px){
+        margin-top:0px;
+    }
+    @media only screen and(min-width: 414px){
+        margin-top:0px;
+        
+
+        
+        
+    }
+    
+}
+.ropaCard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    margin-left: auto;
+
+    @media only screen and(min-width: 320px) {
+        margin-left: 15px;
+        
+            
+        .cardigan {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 40px;
+                img{
+                    height: 190px;
+                }
+            }
+            .card-body{
+                height: 135px;
+            }
+            .btn{
+                display: flex;
+                align-items:center;
+                float: right;
+                
+            }
+    }
+
+    @media only screen and(min-width: 360px) {
+        margin-left: 35px;
+
+        .card {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 375px) {
+        margin-left: 40px;
+
+        .card {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 414px) {
+        margin-left: 60px;
+    }
+
+    @media only screen and(min-width: 768px) {
+        margin-left: 0px;
+        display: flex;
+        justify-self: center;
+
+        .card {
+            margin: 15px;
+        }
+    }
+
+    @media only screen and(min-width: 1024px) {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        .cardigan {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 40px;
+                img{
+                    height: 230px;
+                }
+            }
+            .card-body{
+                height: auto;
+                overflow: hidden;
+                
+            }
+        
+    }
+    @media only screen and(min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        .cardigan {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 40px;
+                img{
+                    height: 230px;
+                }
+            }
+            .card-body{
+                height: auto;
+                overflow: hidden;
+                
+            }
+        
+    }
+
+    .cardigan {
+        width: 100%;
+    }
+}
+.bannerSanta{
+    @media only screen and(min-width: 360px) {
+        height: 80px;
+    }
+    @media only screen and(min-width: 320px) {
+        height: 80px;
+    }
+    @media only screen and(min-width: 414px) {
+        height: 80px;
+    }
+    @media only screen and(min-width: 768px) {
+        height: 80px;
+    }
+    @media only screen and(min-width: 1024px){
+        height: 150px;
+    }
+
+}
+.bannerVS{
+    @media only screen and(min-width: 360px){
+        display: none;
+    }
+    @media only screen and(min-width: 320px){
+        display: none;
+    }
+    @media only screen and(min-width: 414px){
+        display: none;
+    }
+    @media only screen and(min-width: 768px){
+        display: inline;
+    }
+    @media only screen and(min-width: 1024px){
+        display: block;
+    
+    }
+}
