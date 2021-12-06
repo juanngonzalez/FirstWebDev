@@ -216,8 +216,6 @@ ul li:hover ul{
 
 }
 .claseContacto{
-    background-image:url(/assets/Titanium2.jpg);
-    background-size: cover;
     width: 100%;
     height: 100%;
 }
